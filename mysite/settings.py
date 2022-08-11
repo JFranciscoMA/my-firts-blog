@@ -31,7 +31,7 @@ ALLOWED_HOSTS = ['127.0.0.1', '.pythonanywhere.com']
 # Application definition
 
 INSTALLED_APPS = [
-    'django.contrib.admin',
+      'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
@@ -110,7 +110,7 @@ TIME_ZONE = 'America/Mexico_City'
 
 USE_I18N = True
 
-#USE_L10N = True
+USE_L10N = True
 
 USE_TZ = True
 
